@@ -27,11 +27,11 @@ As of March 2025, you can apply for an early stage of alpha-testing through the 
 
 <h2>Local installation:</h2>
 Simply run this command out of <b>root</b> and follow the instructions of installer:<br>
-<code>. <(wget -qO- https://hikariatama.ru/get_hikka)</code><br>
+<code>. <(wget -qO- https://hikariatama.ru/get_phax)</code><br>
 <br>
 <b>Manual installation (no script):</b><br>
-<code>apt update && apt install git libcairo2 -y && git clone https://github.com/hikariatama/Hikka && cd Hikka && pip install -r requirements.txt && python3 -m hikka</code><br.>
-<i>If you are on VPS\VDS, type <code>--proxy-pass</code> in the end of command to open SSH tunnel to your Hikka web interface, or use <code>--no-web</code> to complete setup in console</i><br>
+<code>apt update && apt install git libcairo2 -y && git clone https://github.com/hikariatama/Hikka && cd PHAX && pip install -r requirements.txt && python3 -m phax</code><br.>
+<i>If you are on VPS\VDS, type <code>--proxy-pass</code> in the end of command to open SSH tunnel to your PHAX web interface, or use <code>--no-web</code> to complete setup in console</i><br>
 <br>
 <b>Some further details:</b>
 
@@ -66,10 +66,10 @@ Simply run this command out of <b>root</b> and follow the instructions of instal
 <hr>
 <h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/680-it-developer-flat.webp" height="54" align="middle"> Documentation</h2>
 
-Check out <a href="https://dev.hikka.pw">dev.hikka.pw</a> for developers' documentation and <a href="https://hikka.pw">hikka.pw</a> for users' documentation<br>
+Check out <a href="https://dev.phax.pw">dev.phax.pw</a> for developers' documentation and <a href="https://phax.pw">phax.pw</a> for users' documentation<br>
 
 <hr>
-<h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/981-consultation-flat.webp" height="54" align="middle"> <a href="https://t.me/hikka_talks">Support</a></h2>
+<h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/981-consultation-flat.webp" height="54" align="middle"> <a href="https://t.me/phax_talks">Support</a></h2>
 <hr>
 <h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/541-hand-washing-step-12-flat.webp" height="54" align="middle"> Features</h2>
 <table>
@@ -131,7 +131,7 @@ Check out <a href="https://dev.hikka.pw">dev.hikka.pw</a> for developers' docume
 <img src="https://user-images.githubusercontent.com/36935426/202842278-37fbc518-1679-45d7-92f5-9e519275630d.png">
 
 <hr>
-<i>⚠️ This project is provided as-is. Developer doesn't take ANY responsibility over any problems, caused by userbot. By installing Hikka you take all risks on you. This is but not limited to account bans, deleted (by Telegram algorithms) messages, SCAM-modules, leaked sessions (due to SCAM-modules). It is <b>highly</b> recommended to enable the API Flood protection (.api_fw_protection) and not to install many modules at once. By using Hikka you give your consent to any actions made by your account in background in purposes of automatization. Please, consider reading https://core.telegram.org/api/terms for more information.</i>
+<i>⚠️ This project is provided as-is. Developer doesn't take ANY responsibility over any problems, caused by userbot. By installing PHAX you take all risks on you. This is but not limited to account bans, deleted (by Telegram algorithms) messages, SCAM-modules, leaked sessions (due to SCAM-modules). It is <b>highly</b> recommended to enable the API Flood protection (.api_fw_protection) and not to install many modules at once. By using PHAX you give your consent to any actions made by your account in background in purposes of automatization. Please, consider reading https://core.telegram.org/api/terms for more information.</i>
 
 <b>Special thanks to:</b>
 
@@ -141,6 +141,6 @@ Check out <a href="https://dev.hikka.pw">dev.hikka.pw</a> for developers' docume
     <li><a href="https://t.me/hegaNET">Hegakura</a> for Tatar translation pack</li>
     <li><a href="https://t.me/tiefeschwarz">Aldehydesäure</a> for German translation pack</li>
     <li><a href="https://t.me/amorescam">Amore</a> for Uzbek translation pack</li>
-    <li><a href="https://t.me/lonami">Lonami</a> for Telethon, which is the base of Hikka-TL</li>
-    <li><a href="https://github.com/delivrance">Dan</a> for pyrogram, which is the base of Hikka-Pyro</li>
+    <li><a href="https://t.me/lonami">Lonami</a> for Telethon, which is the base of PHAX-TL</li>
+    <li><a href="https://github.com/delivrance">Dan</a> for pyrogram, which is the base of PHAX-Pyro</li>
 </ul>

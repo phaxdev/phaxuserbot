@@ -1,14 +1,16 @@
 version: "3"
 services:
     worker:
-        container_name: "hikka-worker"
+        container_name: "phax-worker"
         build:
             context: .
         volumes:
             - worker:/data
+            - ./phax:/data/PHAX/phax
+            - /:/host
         stop_signal: SIGINT
         restart: unless-stopped
-        command: "python -m hikka"
+        command: "python -m phax"
         ports:
             - "${EXTERNAL_PORT:-8080}:8080"
 

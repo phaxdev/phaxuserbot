@@ -11,11 +11,11 @@ RUN rm -rf /var/lib/apt/lists /var/cache/apt/archives /tmp/*
 
 RUN mkdir /data
 
-COPY . /data/Hikka
-WORKDIR /data/Hikka
+COPY . /data/PHAX
+WORKDIR /data/PHAX
 
 RUN pip install --no-warn-script-location --no-cache-dir -U -r requirements.txt
 
 EXPOSE 8080
 
-CMD python -m hikka
+CMD python -m phax
